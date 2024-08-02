@@ -1,0 +1,138 @@
+.contagem-container .contagem-regressiva {
+  margin-top: -35em; 
+  text-align: center;
+  z-index: 10000;
+}
+
+.contagem-container .contagem-regressiva > .simples-sessao {
+  display: inline-block;
+  width: 110px;
+  height: 120px;
+  background: rgba(81, 81, 92, 0.885);
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 5px solid rgba(147, 8, 22, 0.5);
+  margin: 0 7px;
+  position: relative;
+  animation: pulse 1.01s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.contagem-regressiva > .simples-sessao > div {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100px;
+  width: 110px;
+}
+
+.contagem-regressiva > .simples-sessao .simples-quantidade,
+.contagem-regressiva > .simples-sessao .simples-palavra {
+  display: block;
+  color: white;
+ 
+}
+
+/* Contagem Númerica */
+.contagem-regressiva > .simples-sessao .simples-quantidade {
+  font-size: 40px;
+  font-weight: bold;
+ 
+}
+
+/* Dias, horas, Minutos e Segundos */
+.contagem-regressiva > .simples-sessao .simples-palavra {
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  
+}
+
+/* Responsividade */
+
+@media (max-width: 576px) {
+  .contagem-container .contagem-regressiva > .simples-sessao{
+    width: 95px;
+    height: 95px;
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-quantidade {
+    font-size: 30px;
+    margin-bottom: 7px;
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-palavra {
+    font-size: 10px;
+  }
+
+  .contagem-container .contagem-regressiva {
+    margin-top: -30em;
+  }
+ 
+  
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contagem-container .contagem-regressiva > .simples-sessao {
+    width: 80px; 
+    height: 90px; 
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-quantidade {
+    font-size: 30px; 
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-palavra {
+    font-size: 9px; 
+  }
+
+  .contagem-container .contagem-regressiva {
+    margin-top: -9em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contagem-container .contagem-regressiva > .simples-sessao {
+    width: 80px; 
+    height: 90px; 
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-quantidade {
+    font-size: 30px; 
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-palavra {
+    font-size: 9px; 
+  }
+
+  .contagem-container .contagem-regressiva {
+    margin-top: -9em;
+  }
+}
+
+@media (min-width: 992px) {
+  .contagem-container .contagem-regressiva {
+    margin-top: -12em;
+  }
+ 
+}
+
+@media (min-width: 1400px) {
+  .contagem-container .contagem-regressiva {
+    margin-top: -20em;
+  }
+ 
+}
+
+
