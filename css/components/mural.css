@@ -1,0 +1,72 @@
+/* Linha principal */
+#mural .container {
+  padding: 190px 0;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Linha e coluna da sessão */
+.row .column{
+  flex: 22.2%;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 10px;
+  
+}
+
+/* Sessao das imagens do mural */
+.row .column .foto_mural{
+  width: 100%;
+  margin: 10px 0;
+  filter: grayscale(1) brightness(.7);
+  transition: .2s all linear;
+  box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);  
+}
+
+/* Sessao das imagens do mural - ao passar do mouse */
+.row .column .foto_mural:hover{
+  filter: grayscale(0) brightness(1);
+  box-shadow: inset 10px 10px 24px -12px rgba(0,0,0,0.75);
+  transform: scale(1.1);
+}
+
+/* Sessão do texto - Div superior */
+.text-wrap {
+  position: relative;
+}
+
+/* Sessão do texto - ao passar do mouse */
+.text-wrap:hover h2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Sessão do Texto - Palavra escrita */
+.text-wrap h2 {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2); 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*Response do Mural em Telas */
+@media (max-width: 800px){
+  .row .column{
+    flex: 50%;
+  }
+}
+
+@media (max-width: 600px){
+  .row .column{
+    flex: 100%;
+  }
+}
