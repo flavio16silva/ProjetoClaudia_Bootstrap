@@ -105,12 +105,13 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .contagem-container .contagem-regressiva > .simples-sessao {
-    width: 80px; 
-    height: 90px; 
+    width: 75px; 
+    height: 85px; 
   }
 
   .contagem-regressiva > .simples-sessao .simples-quantidade {
-    font-size: 30px; 
+    font-size: 20px; 
+    margin-top: -1em;
   }
 
   .contagem-regressiva > .simples-sessao .simples-palavra {
@@ -123,6 +124,19 @@
 }
 
 @media (min-width: 992px) {
+  .contagem-container .contagem-regressiva > .simples-sessao{
+    width: 90px;
+    height: 95px;
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-quantidade {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-palavra {
+    font-size: 12px;
+  }
   .contagem-container .contagem-regressiva {
     margin-top: -12em;
   }
@@ -130,9 +144,9 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-  .contagem-container .contagem-regressiva > .simples-sessao{
-    width: 75px;
-    height: 85px;
+  /* .contagem-container .contagem-regressiva > .simples-sessao{
+    width: 85px;
+    height: 95px;
   }
 
   .contagem-regressiva > .simples-sessao .simples-quantidade {
@@ -142,10 +156,10 @@
 
   .contagem-regressiva > .simples-sessao .simples-palavra {
     font-size: 10px;
-  }
+  } */
 
   .contagem-container .contagem-regressiva {
-    margin-top: -15em;
+    margin-top: -13em;
   }
  
 }
