@@ -65,6 +65,7 @@
   .contagem-container .contagem-regressiva > .simples-sessao{
     width: 95px;
     height: 95px;
+   
   }
 
   .contagem-regressiva > .simples-sessao .simples-quantidade {
@@ -87,6 +88,7 @@
   .contagem-container .contagem-regressiva > .simples-sessao {
     width: 70px; 
     height: 80px; 
+    
   }
 
   .contagem-regressiva > .simples-sessao .simples-quantidade {
@@ -107,12 +109,13 @@
   .contagem-container .contagem-regressiva > .simples-sessao {
     width: 75px; 
     height: 85px; 
+    
   }
 
   .contagem-regressiva > .simples-sessao .simples-quantidade {
     font-size: 20px; 
     margin-top: -1em;
-  }
+  } */
 
   .contagem-regressiva > .simples-sessao .simples-palavra {
     font-size: 9px; 
@@ -144,7 +147,7 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-  /* .contagem-container .contagem-regressiva > .simples-sessao{
+  .contagem-container .contagem-regressiva > .simples-sessao{
     width: 85px;
     height: 95px;
   }
@@ -156,7 +159,7 @@
 
   .contagem-regressiva > .simples-sessao .simples-palavra {
     font-size: 10px;
-  } */
+  }
 
   .contagem-container .contagem-regressiva {
     margin-top: -13em;
@@ -165,8 +168,26 @@
 }
 
 @media (min-width: 1400px) {
+  .contagem-container .contagem-regressiva > .simples-sessao{
+    width: 85px;
+    height: 95px;
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-quantidade {
+    font-size: 25px;
+    margin-bottom: 2px;
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-palavra {
+    font-size: 11px;
+  }
+
   .contagem-container .contagem-regressiva {
-    margin-top: -15em;
+    margin-top: -13em;
+  }
+
+  .contagem-container .contagem-regressiva {
+    margin-top: -20em;
   }
  
 }
