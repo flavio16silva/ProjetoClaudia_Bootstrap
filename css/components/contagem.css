@@ -85,16 +85,17 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .contagem-container .contagem-regressiva > .simples-sessao {
-    width: 80px; 
-    height: 90px; 
+    width: 70px; 
+    height: 80px; 
   }
 
   .contagem-regressiva > .simples-sessao .simples-quantidade {
-    font-size: 30px; 
+    font-size: 25px; 
+    margin-top: -1em;
   }
 
   .contagem-regressiva > .simples-sessao .simples-palavra {
-    font-size: 9px; 
+    font-size: 8px; 
   }
 
   .contagem-container .contagem-regressiva {
@@ -128,9 +129,30 @@
  
 }
 
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .contagem-container .contagem-regressiva > .simples-sessao{
+    width: 75px;
+    height: 85px;
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-quantidade {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+
+  .contagem-regressiva > .simples-sessao .simples-palavra {
+    font-size: 10px;
+  }
+
+  .contagem-container .contagem-regressiva {
+    margin-top: -15em;
+  }
+ 
+}
+
 @media (min-width: 1400px) {
   .contagem-container .contagem-regressiva {
-    margin-top: -20em;
+    margin-top: -15em;
   }
  
 }
