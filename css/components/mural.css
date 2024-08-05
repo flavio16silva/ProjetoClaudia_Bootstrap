@@ -1,16 +1,18 @@
 /* Linha principal */
 #mural .container {
-  padding: 190px 0;
+  padding: 230px 0;
 }
 
 .row{
   display: flex;
   flex-wrap: wrap;
+  margin: -10px;
 }
 
 /* Linha e coluna da sessão */
 .row .column{
   flex: 22.2%;
+  padding: 10px;
   overflow: hidden;
   width: 100%;
   padding: 0 10px;
@@ -59,7 +61,7 @@
 }
 
 /*Response do Mural em Telas */
-@media (max-width: 800px){
+/* @media (max-width: 800px){
   .row .column{
     flex: 50%;
   }
@@ -68,5 +70,45 @@
 @media (max-width: 600px){
   .row .column{
     flex: 100%;
+  }
+} */
+
+@media (max-width: 1200px){
+  #mural .container {
+    padding: 130px 0;
+  }
+}
+
+@media (max-width: 992px){
+    #mural .container {
+      padding: 70px 0;
+    }
+    .row .column{
+      flex: 33.33%;
+      padding: 30px 5px;
+    }  
+
+  }
+
+@media (max-width: 768px){
+  #mural .container {
+    padding: 50px 0;
+  }
+  .row .column{
+    flex: 50%;
+  }
+}
+
+@media (max-width: 576px){
+  #mural .container {
+    padding: 50px 0;
+  }
+  .row .column{
+    flex:50%;
+  }
+
+  .row .column .foto_mural {
+    width: 100%; 
+    margin: 20px auto;
   }
 }
