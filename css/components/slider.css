@@ -176,3 +176,27 @@
   }
 
 }
+
+@media(max-width: 375px) {
+  /* slider */
+  #mainSlider {
+    margin-top: 80px;
+  }
+
+  #mainSlider .carousel-caption {
+    top:5%
+  }
+
+  #mainSlider .carousel-caption h2 {
+     font-size: 15px;
+     margin-top: 40px;
+  }
+
+  #mainSlider .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption .main-btn {
+    font-size: 14px;
+  }
+}
