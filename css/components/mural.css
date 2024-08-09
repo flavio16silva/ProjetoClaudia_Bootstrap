@@ -1,6 +1,6 @@
 /* Linha principal */
 #mural .container {
-  padding: 230px 0;
+  padding: 100px 0;
 }
 
 .row{
@@ -12,10 +12,11 @@
 /* Linha e coluna da sessão */
 .row .column{
   flex: 22.2%;
-  padding: 10px;
+  padding-top: 30px;
   overflow: hidden;
   width: 100%;
-  padding: 0 10px;
+  padding-right: 4px;
+  padding-left: 4px;
   
 }
 
@@ -60,22 +61,15 @@
   border-radius: 5px;
 }
 
-/*Response do Mural em Telas */
-/* @media (max-width: 800px){
-  .row .column{
-    flex: 50%;
+@media (min-width: 1440px){
+  #mural .container {
+    padding: 250px 0;
   }
 }
 
-@media (max-width: 600px){
-  .row .column{
-    flex: 100%;
-  }
-} */
-
 @media (max-width: 1200px){
   #mural .container {
-    padding: 130px 0;
+    padding: 100px 0;
   }
 }
 
@@ -92,23 +86,82 @@
 
 @media (max-width: 768px){
   #mural .container {
-    padding: 50px 0;
+    padding: 30px 0;
   }
   .row .column{
-    flex: 50%;
+    flex: 25%;
   }
 }
 
 @media (max-width: 576px){
   #mural .container {
-    padding: 50px 0;
+    padding: 40px 0;
   }
-  .row .column{
-    flex:50%;
+  .row .small-column {
+    flex: 25%; 
+    /* padding: 5px 3px; */
+  }
+
+  .text-wrap .text h2 {
+    font-size: 12px;
   }
 
   .row .column .foto_mural {
     width: 100%; 
-    margin: 20px auto;
+    margin: 3px 5px;
   }
 }
+
+@media (max-width: 425px) {
+  /* Ajuste o container do mural */
+  #mural .container {
+    padding: 270px 0; /* Afastamento em relação ao carousel */
+  }
+
+  /* Ajuste o espaço entre as colunas */
+  .row .small-column {
+    flex: 25%; /* Garante que cada coluna ocupe toda a linha */
+    padding: 20px 3px;    
+  }
+
+  /* Reduza o tamanho das imagens */
+  .row .small-column .foto_mural {
+    /* Reduz o tamanho da imagem */
+    width: 100%; 
+    margin: 3px auto; 
+  }
+
+  .text-wrap .text h2 {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  /* Ajuste o container do mural */
+  #mural .container {
+    padding: 290px 0;  /* Afastamento em relação ao carousel */
+  }
+  /* Ajuste o espaço entre as colunas */
+  .row .small-column {
+    flex: 25%; /* Garante que cada coluna ocupe toda a linha */
+    padding: 10px 3px;    
+  }
+
+  /* Reduza o tamanho das imagens */
+  .row .small-column .foto_mural {
+    /* Reduz o tamanho da imagem */
+    width: 100%; 
+    margin: 3px auto; 
+  }
+
+  .text-wrap .text h2 {
+    font-size: 10px;
+  }
+
+}
+
+
+
+
