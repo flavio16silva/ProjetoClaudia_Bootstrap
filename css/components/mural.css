@@ -115,25 +115,7 @@
 @media (max-width: 425px) {
   /* Ajuste o container do mural */
   #mural .container {
-    padding: 270px 0; /* Afastamento em relação ao carousel */
-  }
-
-  /* Ajuste o espaço entre as colunas */
-  .row .small-column {
-    flex: 25%; /* Garante que cada coluna ocupe toda a linha */
-    padding: 20px 3px;    
-  }
-
-  /* Reduza o tamanho das imagens */
-  .row .small-column .foto_mural {
-    /* Reduz o tamanho da imagem */
-    width: 100%; 
-    margin: 3px auto; 
-  }
-
-  .text-wrap .text h2 {
-    font-size: 12px;
-    letter-spacing: 2px;
+    display: none; 
   }
 
 }
@@ -141,25 +123,8 @@
 @media (max-width: 375px) {
   /* Ajuste o container do mural */
   #mural .container {
-    padding: 290px 0;  /* Afastamento em relação ao carousel */
+    display: none;  
   }
-  /* Ajuste o espaço entre as colunas */
-  .row .small-column {
-    flex: 25%; /* Garante que cada coluna ocupe toda a linha */
-    padding: 10px 3px;    
-  }
-
-  /* Reduza o tamanho das imagens */
-  .row .small-column .foto_mural {
-    /* Reduz o tamanho da imagem */
-    width: 100%; 
-    margin: 3px auto; 
-  }
-
-  .text-wrap .text h2 {
-    font-size: 10px;
-  }
-
 }
 
 
