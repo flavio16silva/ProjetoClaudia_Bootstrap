@@ -1,5 +1,10 @@
+.sobre__left {
+    text-align: center;
+}
+
 .sobre__left .doutora_nome {
     font-size: 2em;
+    text-align: left;
 }
 
 .sobre__left .texto {
@@ -12,6 +17,14 @@
     text-align: justify;
     line-height: 30px;
 }
+
+/* Seta do botão Saiba Mais */
+.sobre__left .btn {
+    font-size: 1rem;   
+    padding:0.2rem 1.2rem; 
+    display: inline-block;
+    margin: 0 auto;
+  }
 
 .sobre__right {
     display: flex;
@@ -30,11 +43,11 @@
 
 .sobre__right .images {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    width: 150%; 
-    height: 130%;
-    margin-top: -30px;
+    width: 70%; 
+    height: 70%;
+    margin-top: -40px;
    
 }
 
@@ -45,4 +58,18 @@
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+
+@media (max-width: 425px) {
+    .sobre__left .doutora_nome {
+        font-size: 1.5em;
+    }
+    .sobre__left .texto {
+        font-size: 1em;
+    } 
+    .sobre__left .sobre_psico {   
+        font-size: 0.8em;
+    }
 }
