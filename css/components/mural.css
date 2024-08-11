@@ -3,67 +3,92 @@
   padding: 100px 0;
 }
 
-.row{
-  display: flex;
-  flex-wrap: wrap;
-  margin: -10px;
+.smaller-card {
+  max-width: 500px; /* Ajuste este valor conforme necessário */
+  margin: 0 auto; /* Centraliza o card horizontalmente */
 }
-
-/* Linha e coluna da sessão */
-.row .column{
-  flex: 22.2%;
-  padding-top: 30px;
-  overflow: hidden;
+.card-img-top {
+  object-fit: cover;
   width: 100%;
-  padding-right: 4px;
-  padding-left: 4px;
-  
+  height: 225px;
 }
 
-/* Sessao das imagens do mural */
-.row .column .foto_mural{
+/* Sessão dos cartões */
+.row .column .card {
   width: 100%;
-  margin: 10px 0;
-  filter: grayscale(1) brightness(.7);
-  transition: .2s all linear;
-  box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);  
+  max-width: 250px; 
+  margin-bottom: 20px;
 }
 
-/* Sessao das imagens do mural - ao passar do mouse */
-.row .column .foto_mural:hover{
-  filter: grayscale(0) brightness(1);
-  box-shadow: inset 10px 10px 24px -12px rgba(0,0,0,0.75);
-  transform: scale(1.1);
+/* Imagens dentro dos cartões */
+.row .column .card-img-top {
+  width: 100%;
+  height: 50px; 
+  /* object-fit: cover; */
+  margin: 0 auto;
 }
 
-/* Sessão do texto - Div superior */
-.text-wrap {
+/* Sessao dos cards do mural - ao passar do mouse */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card-img-top {
+  filter: grayscale(0) brightness(1); /* Estado padrão */
+  transition: all 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  filter: grayscale(1) brightness(0.7);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.card-img-wrapper {
   position: relative;
 }
 
-/* Sessão do texto - ao passar do mouse */
-.text-wrap:hover h2 {
-  opacity: 1;
-  visibility: visible;
+.card-img-top {
+  display: block; 
 }
 
-/* Sessão do Texto - Palavra escrita */
-.text-wrap h2 {
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2); /* Fundo semi-transparente para melhor visibilidade do texto */
   opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.3s ease; /* Suaviza a transição de visibilidade */
+}
+
+.card:hover .card-img-overlay {
+  opacity: 1;
+}
+
+.overlay-text {
   color: #fff;
-  text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2); 
+  text-transform: uppercase;
   padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2); 
   border-radius: 5px;
 }
+
 
 @media (min-width: 1440px){
   #mural .container {
     padding: 250px 0;
+  }
+  .row .column {
+    flex: 1 0 30%;
   }
 }
 
@@ -78,8 +103,7 @@
       padding: 70px 0;
     }
     .row .column{
-      flex: 33.33%;
-      padding: 30px 5px;
+      flex: 1 0 25%;
     }  
 
   }
@@ -89,7 +113,7 @@
     padding: 30px 0;
   }
   .row .column{
-    flex: 25%;
+    flex: 0 0 50%;
   }
 }
 
@@ -98,8 +122,7 @@
     padding: 40px 0;
   }
   .row .small-column {
-    flex: 25%; 
-    /* padding: 5px 3px; */
+    flex: 1 0 50%;
   }
 
   .text-wrap .text h2 {
@@ -107,13 +130,14 @@
   }
 
   .row .column .foto_mural {
-    width: 100%; 
+    width: 90%; 
     margin: 3px 5px;
+    
   }
 }
 
 @media (max-width: 425px) {
-  /* Ajuste o container do mural */
+  
   #mural .container {
     display: none; 
   }
@@ -121,7 +145,7 @@
 }
 
 @media (max-width: 375px) {
-  /* Ajuste o container do mural */
+  
   #mural .container {
     display: none;  
   }
