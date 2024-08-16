@@ -3,6 +3,10 @@
   padding: 70px 0;
 } */
 
+#mural .title {
+  font-weight: bold;
+}
+
 .card-img-top {
   object-fit: cover;   
 }
@@ -42,6 +46,7 @@
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.2); 
   border-radius: 5px;
+  letter-spacing: 3px;
 }
 
 
