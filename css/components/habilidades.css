@@ -1,4 +1,10 @@
-.col .col-md-6 .text-font {
-    font-size: 10px;
-    color: red;
+#habilidades .container .text-font {
+    font-size: 15px;
+    text-align: justify;    
 }
+
+#habilidades .title {
+    font-weight: bold;
+}
+
+
