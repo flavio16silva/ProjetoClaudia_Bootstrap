@@ -1,7 +1,7 @@
 /* Linha principal */
-.container {
+/* .container {
   padding: 70px 0;
-}
+} */
 
 .card-img-top {
   object-fit: cover;   
@@ -44,6 +44,12 @@
   border-radius: 5px;
 }
 
+
+@media (max-width: 1440px) { 
+  .container {
+    padding: 100px 0;
+  }
+}
 
 @media (max-width: 425px) {  
   #mural .container {
