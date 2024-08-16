@@ -2,6 +2,10 @@
     margin-top: 250px;    
 }
 
+#sobre .title {
+    font-weight: bold;
+}
+
 .sobre__left {
     text-align: center;
 }
