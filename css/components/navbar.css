@@ -1,6 +1,6 @@
 header, .navbar {
-  background-color: #cbd1d6ee;
-  /* 253139, 353D41 */
+  background-color: #03073e;
+  /* 253139, 353D41, 03073e */
 }
 
 #nav-container {
@@ -28,7 +28,7 @@ header, .navbar {
 }
 
 #navbar-links .navbar-nav a {
-  color: #02073e;
+  color: #fff;
   font-weight: bold;
   padding: 0.7rem .8rem;
 }
@@ -41,7 +41,7 @@ header, .navbar {
 }
 
 .social-icons a {
-  color: #02073e;
+  color: #fff;
   padding: 0.3rem;
   text-decoration: none;
   font-size: 20px;  
