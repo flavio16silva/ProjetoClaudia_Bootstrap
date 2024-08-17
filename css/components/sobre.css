@@ -1,5 +1,9 @@
+/* #sobre {
+    margin-top: 50px;    
+} */
+
 #sobre {
-    margin-top: 250px;    
+    margin-bottom: -40px !important;
 }
 
 #sobre .title {
@@ -32,6 +36,13 @@
     padding:0.2rem 1.2rem; 
     display: inline-block;
     margin: 0 auto;
+    background-color: #052c65;;
+    border: 1px solid #cdeaff;
+    letter-spacing: 2px;
+  }
+
+  .sobre__left .btn:hover {
+    background-color: #cdeaff;
   }
 
 .sobre__right {
@@ -66,6 +77,15 @@
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.sobre__right .shadow-hab {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7); /* Sombra suave */
+    transition: box-shadow 0.3s ease-in-out; /* Animação para a sombra */
+}
+
+.sobre__right .shadow-hab:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada ao passar o mouse */
 }
 
 
