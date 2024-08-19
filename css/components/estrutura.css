@@ -1,11 +1,13 @@
-  /* #estrutura .apply-box {
-    text-align: center;
-    padding: 70px 50px;
-  }   */  
+  #estrutura .container-fluid {   
+    padding: 90px 0;
+  }    
 
+  #estrutura .img_parallax{
+    padding: 50px 30px;
+  }
    .parallax-container {
     position: relative;
-    height: 100vh; 
+    height: 100%; 
     overflow: hidden;
     background-image: url('assets/parallax/atendimento1.jpeg'); 
     background-position: center;
@@ -18,7 +20,7 @@
     position: relative;
     z-index: 2;
     color: #fff;
-    padding: 20px;     
+    /* padding: 20px;      */
 }
 
 .texto h3 {
