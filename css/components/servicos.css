@@ -32,11 +32,25 @@
   }
   
   @media (max-width: 768px) {
+    .caixa-conteudo .col-md-6.mb-3 {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .caixa-conteudo .col-md-6.mb-3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .d-lg-block {
+        display: none;
+    }
     .bg-full-width {
-        margin-left: -30px;
+        /* margin-left: -30px;
         margin-right: -30px;
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 30px; */
     }
   }
   
