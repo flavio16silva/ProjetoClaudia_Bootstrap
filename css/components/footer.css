@@ -1,0 +1,207 @@
+footer {
+    margin-top: auto; 
+  }
+  
+  .bg-footer{
+    background-color: #6db6f1;
+    padding-top: 5px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  /* Botao - ENVIAR */
+  .botaoenviar { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    background-color: #fff;  
+    font-weight: bold;
+    letter-spacing: 1.5px; 
+    transition: all 0.7s;
+    text-align: center; 
+    cursor: pointer;  
+  }
+  
+  /* Botao - ENVIAR - passar do mouse */
+  .botaoenviar:hover{
+    background-color: #03073e;
+    border: none;
+    transition: all 0.5s;
+  }
+  
+  /* SPAN - nome - ENVIAR */
+  .btn_enviar {
+   color: #03073e;
+   display: block;
+   width: 100%;
+   text-align: center;
+  }
+  
+  /* SPAN - nome - ENVIAR - passar do mouse  */
+  .btn_enviar:hover {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+   }
+  
+  
+  /* Classe formulario */
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Classe formulario - INPUT */
+  .form-control {
+    padding: 12px 10px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  
+  /* Classe formulario - LABEL */
+  .form-label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    transition: 0.5s ease-in-out;
+    color: #999;
+    pointer-events: none;
+  }
+  
+  .form-control:focus + .form-label {
+    opacity: 0;
+  }
+  
+  /* Classe formulario - Ao entrar do mouse */
+  .form-control:focus + .form-label, 
+  .form-control:not(:placeholder-shown) + 
+  .form-label {
+    top: -20px;
+    left: 10px;
+    font-size: 12px;
+    color: #007bff;
+  }
+  
+  .form-control:not(:focus):placeholder-shown + .form-label {
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: initial;
+    color: #999;
+  }
+  
+  
+  .footer_contato {
+    padding-right: 3px;
+    padding-left: 2px;
+  }
+  
+  /* Ul das duas listas */
+  .ul_footer{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ul_footer a:hover  {
+    text-transform: uppercase;
+  }
+  
+  /* Li das duas listas */
+  .ul_footer li{
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: start;
+  }
+  
+  /* Links - Home, Sobre e... */
+  .ul_footer li a {
+    text-decoration: none;
+    line-height: 1.5em;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+  
+  /* Icone do telefone e email */
+  /* Div - fas */
+  .icon_footer{
+    display: flex;
+    color: #fff;
+    margin-right: 5px;  
+  }
+  
+  /* Div conteudo - Numero e email */
+  .ul_info {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  /* Icones Redes Sociais */
+   .share {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 1rem 0; */
+  }
+  
+  /* Parte interna dos icones de rede social */
+   .share a {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    transition: 0.2s;
+    background: rgb(230, 230, 230);
+    color:#02073e;
+    border: none;
+    text-decoration: none;  
+  }
+  
+  /* Ao passar do mouse nas redes sociais */
+   .share a:hover {
+    background: transparent;
+    transform: scale(0.98);
+    border: 0.1rem solid rgb(242, 239, 239);
+    color: #fff;
+  }
+  
+  /* Direitos Reservados */
+  .footer__copyright {
+    background-color: #fff;
+    padding: 25px 0;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #02073e;
+   
+  }
+  
+  /* Designed by Flávio Silva */
+  .credits {
+    padding: 0;
+    margin-bottom: 20px;
+    background-color:#fff;
+    text-align: center;
+    font-size: 15px;
+    color: #03073e;
+  }
+  
+  /* Icone do Linkedin */
+  .credits .fa {
+    margin-left: 5px;
+  }
+  
+  
