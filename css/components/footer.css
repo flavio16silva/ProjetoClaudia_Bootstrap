@@ -1,31 +1,55 @@
 footer {
-    margin-top: auto; 
+  margin-top: 80px;
+  width: 100%;  
+}
+
+.bg-footer{
+  background-color: #03073e;
+  padding-top: 50px;
+  padding-bottom: 0; 
+  margin: 0;  
+}
+
+.bg-footer .footer_title {
+    color: #fff;
+    justify-content: center;
+    margin-bottom: 10px;
+    
   }
-  
-  .bg-footer{
-    background-color: #03073e;
-    padding-top: 5px;
-    position: relative;
-    z-index: 0;
-  } 
  
   .footer_contato {
     padding-right: 3px;
     padding-left: 2px;
+    font-size: 16px;
   }
   
   /* Ul das duas listas */
-  .ul_footer{
+  .ul_footer {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+/* Estilo dos itens da lista */
+.ul_footer li {
+  margin: 0 15px; 
+  display: inline-block; 
+}
+
+/* Links na lista */
+.ul_footer li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  white-space: nowrap; 
+}
   
-  .ul_footer a:hover  {
-    text-transform: uppercase;
-  }
-  
-  /* Li das duas listas */
+  /* Li das duas listas - Informações de contato */
   .ul_footer li{
     margin-bottom: 10px; 
     display: flex;
@@ -37,16 +61,21 @@ footer {
     text-decoration: none;
     line-height: 1.5em;
     color: #fff;
-    font-weight: bolder;
-    margin-top: 10px;
+    font-weight: bold;    
+  }
+
+  /* Direitos Reservados */
+  .ul_footer .text-left,
+  .ul_footer .text-right {
+    color: #fff;
+    font-weight: 400;      
   }
   
-  /* Icone do telefone e email */
-  /* Div - fas */
+  /* Icones da sessao contato */
   .icon_footer{
     display: flex;
     color: #fff;
-    margin-right: 5px;  
+    margin-right: 10px;  
   }
   
   /* Div conteudo - Numero e email */
@@ -54,13 +83,17 @@ footer {
     color: #fff;
     font-weight: bold;
     letter-spacing: 2px;
+    font-size: 15px;
   }
   
   /* Icones Redes Sociais */
    .share {
     display: flex;
     flex-wrap: wrap;
-    /* padding: 1rem 0; */
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top:-25px;   
   }
   
   /* Parte interna dos icones de rede social */
@@ -91,30 +124,42 @@ footer {
   }
   
   /* Direitos Reservados */
-  .footer__copyright {
+  #footer__copyright {
     background-color: #fff;
-    padding: 5px 0;
+    padding: 5px;
     font-size: 1rem;
-    align-items: center;
     text-align: center;
-    justify-content: center;
-    color: #02073e;
-   
+    color: #fff;
+    margin-bottom: 0; 
+}
+
+  #footer__copyright .copy{
+    margin-top: 25px;
   }
   
   /* Designed by Flávio Silva */
-  .credits {
-    padding: 0;
-    margin-bottom: 2px;
-    background-color:#fff;
-    text-align: center;
-    font-size: 15px;
-    color: #03073e;
+  #footer__copyright {
+    background-color: #fff;
+    padding: 5px 0;
+    color: #02073e;
+}
+
+/* Estilo para os textos nas colunas */
+#footer__copyright .col-md-4 p {
+    margin: 0; 
   }
   
   /* Icone do Linkedin */
   .credits .fa {
     margin-left: 5px;
   }
+
+  /* Linha do footer */
+  .line-separator {
+    width: 100%;
+    height: 2px; /* Espessura da linha */
+    background-color: #fff; /* Cor branca */
+    margin-bottom: 15px; /* Espaço abaixo da linha */
+}
   
   
