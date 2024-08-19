@@ -4,12 +4,13 @@
 }
 
 #habilidades{
-    background-color: #cdeaff;
+    background-color: #e0e0e4;
 }
 
 #habilidades .container .text-font {
     font-size: 15px;
-    text-align: justify;    
+    text-align: justify; 
+     
 }
 
 #habilidades .title {
