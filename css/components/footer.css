@@ -3,99 +3,12 @@ footer {
   }
   
   .bg-footer{
-    background-color: #6db6f1;
+    background-color: #03073e;
     padding-top: 5px;
     position: relative;
     z-index: 0;
-  }
-  
-  /* Botao - ENVIAR */
-  .botaoenviar { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height: 50px;
-    background-color: #fff;  
-    font-weight: bold;
-    letter-spacing: 1.5px; 
-    transition: all 0.7s;
-    text-align: center; 
-    cursor: pointer;  
-  }
-  
-  /* Botao - ENVIAR - passar do mouse */
-  .botaoenviar:hover{
-    background-color: #03073e;
-    border: none;
-    transition: all 0.5s;
-  }
-  
-  /* SPAN - nome - ENVIAR */
-  .btn_enviar {
-   color: #03073e;
-   display: block;
-   width: 100%;
-   text-align: center;
-  }
-  
-  /* SPAN - nome - ENVIAR - passar do mouse  */
-  .btn_enviar:hover {
-    color: #fff;
-    display: block;
-    width: 100%;
-    text-align: center;
-   }
-  
-  
-  /* Classe formulario */
-  .form-group {
-    position: relative;
-    margin-bottom: 1.5rem;
-  }
-  
-  /* Classe formulario - INPUT */
-  .form-control {
-    padding: 12px 10px;
-    transition: 0.5s ease-in-out;
-  }
-  
-  
-  /* Classe formulario - LABEL */
-  .form-label {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    background: transparent;
-    transition: 0.5s ease-in-out;
-    color: #999;
-    pointer-events: none;
-  }
-  
-  .form-control:focus + .form-label {
-    opacity: 0;
-  }
-  
-  /* Classe formulario - Ao entrar do mouse */
-  .form-control:focus + .form-label, 
-  .form-control:not(:placeholder-shown) + 
-  .form-label {
-    top: -20px;
-    left: 10px;
-    font-size: 12px;
-    color: #007bff;
-  }
-  
-  .form-control:not(:focus):placeholder-shown + .form-label {
-    opacity: 1;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: initial;
-    color: #999;
-  }
-  
-  
+  } 
+ 
   .footer_contato {
     padding-right: 3px;
     padding-left: 2px;
@@ -180,7 +93,7 @@ footer {
   /* Direitos Reservados */
   .footer__copyright {
     background-color: #fff;
-    padding: 25px 0;
+    padding: 5px 0;
     font-size: 1rem;
     align-items: center;
     text-align: center;
@@ -192,7 +105,7 @@ footer {
   /* Designed by Flávio Silva */
   .credits {
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     background-color:#fff;
     text-align: center;
     font-size: 15px;
