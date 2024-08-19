@@ -1,20 +1,22 @@
-#servicos {
-  background-color:#03073e;
+#servicos_emp {
+  background-color:#8883838a;
 }
 
-#servicos .title {
+/* #F9F9F9, #03073e*/
+
+#servicos_emp  .title {
     font-weight: bold;
-    color:#ffffff;
+    color:#03073e;
 }
 
-#servicos .texto_inicio{
+#servicos_emp  .texto_inicio{
     text-align: justify;
-    color:#ffffff;
+    color:#03073e;
 }
 
-#servicos h3, 
-#servicos p {
-  color:#ffffff;
+#servicos_emp  h3, 
+#servicos_emp  p {
+  color:#03073e;
 }
 
 /* Serviços Empresariais */
@@ -88,28 +90,7 @@
   .bg-full-width:hover {
     background: #03073e;
     background-size: cover;
-    /* margin-left: 5px;
-    margin-right: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px; */
-    /* transition: all 0.4s ease;  */
   }
-  
-  /* .texto_completo {
-    color:black;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .texto_completo:hover {
-    color:#ffffff;
-    font-weight: 400;
-  }
-
-  .texto_completo:hover h3,
-  .texto_completo:hover p {
-    color: #ffffff;
-} */
   
   /* Imagens */
   .img_card {
