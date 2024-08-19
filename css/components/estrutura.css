@@ -1,0 +1,33 @@
+  /* #estrutura .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+  }   */  
+
+   .parallax-container {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+    background-image: url('assets/parallax/atendimento1.jpeg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 20px;     
+}
+
+.texto h3 {
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    text-align: justify;
+}
