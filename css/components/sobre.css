@@ -36,7 +36,7 @@
     padding:0.2rem 1.2rem; 
     display: inline-block;
     margin: 0 auto;
-    background-color: #052c65;;
+    background-color: #03073e;
     border: 1px solid #cdeaff;
     letter-spacing: 2px;
     
@@ -44,8 +44,8 @@
 
   .sobre__left .btn:hover {
     background-color: #cdeaff;
-    color:#052c65;
-    border: 1px solid #052c65;
+    color:#03073e;
+    border: 1px solid #03073e;
     font-weight: bold;
   }
 
