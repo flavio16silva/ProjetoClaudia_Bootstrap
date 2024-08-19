@@ -32,11 +32,29 @@
   }
   
   @media (max-width: 768px) {
+    
+    .caixa-conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+   .caixa-conteudo .row {
+    flex-direction: column;
+   }
+
     .caixa-conteudo .col-md-6.mb-3 {
         width: 100%;
         max-width: 100%;
         flex: 0 0 100%;
     }
+
+    .img_order {
+      order: 1;
+  }
+
+  .texto_order {
+      order: 2;
+  }
 
     .caixa-conteudo .col-md-6.mb-3 img {
         width: 100%;
