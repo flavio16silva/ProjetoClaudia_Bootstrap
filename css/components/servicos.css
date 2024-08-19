@@ -1,9 +1,20 @@
+#servicos {
+  background-color:#03073e;
+}
+
 #servicos .title {
     font-weight: bold;
+    color:#ffffff;
 }
 
 #servicos .texto_inicio{
     text-align: justify;
+    color:#ffffff;
+}
+
+#servicos h3, 
+#servicos p {
+  color:#ffffff;
 }
 
 /* Serviços Empresariais */
@@ -11,12 +22,11 @@
 .caixa-conteudo .row .caixa img {
     border-radius: 0 0 0.7rem 0.7rem;
     box-shadow: 0 0.5rem 1rem rgba(168, 162, 162, 0.344);     
-  }
+  }  
   
-  
-  .paragrafo_centro {
+.paragrafo_centro {
     text-align: justify;
-  }
+}
   
   /* Cor de fundo das sessoes 1 e 3 das fotos empresariais
   #67b0d1 
@@ -86,7 +96,7 @@
     /* transition: all 0.4s ease;  */
   }
   
-  .texto_completo {
+  /* .texto_completo {
     color:black;
     transition: color 0.3s ease-in-out;
   }
@@ -99,7 +109,7 @@
   .texto_completo:hover h3,
   .texto_completo:hover p {
     color: #ffffff;
-}
+} */
   
   /* Imagens */
   .img_card {
