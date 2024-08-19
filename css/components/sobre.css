@@ -39,10 +39,14 @@
     background-color: #052c65;;
     border: 1px solid #cdeaff;
     letter-spacing: 2px;
+    
   }
 
   .sobre__left .btn:hover {
     background-color: #cdeaff;
+    color:#052c65;
+    border: 1px solid #052c65;
+    font-weight: bold;
   }
 
 .sobre__right {
