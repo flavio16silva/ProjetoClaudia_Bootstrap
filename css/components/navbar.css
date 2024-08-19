@@ -9,7 +9,8 @@ header, .navbar {
 }
 
 #logo {
-  width: 75px;
+  width: 85px;
+  padding-bottom: 15px;
 }
 
 .navbar-brand {
