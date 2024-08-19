@@ -61,7 +61,7 @@
 
 
 @media (max-width: 1440px) { 
-  .container {
+  #mural .container {
     padding: 100px 0;
   }
 }
