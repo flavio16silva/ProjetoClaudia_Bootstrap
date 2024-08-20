@@ -153,6 +153,8 @@
 
 }
 
+
+
 @media(min-width: 425px) and (max-width: 576px) {
   /* slider */
   #mainSlider {
@@ -178,10 +180,26 @@
 
 }
 
+@media(max-width: 425px) {
+    /* slider */
+    #mainSlider {
+      margin-top: 40px;
+    }
+
+    #mainSlider .carousel-caption h2 {
+      font-size: 18px;
+      margin-top: 10px;
+   }
+
+   #mainSlider .carousel-caption p {
+    display: none;
+  }
+}
+
 @media(max-width: 375px) {
   /* slider */
   #mainSlider {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   #mainSlider .carousel-caption {
