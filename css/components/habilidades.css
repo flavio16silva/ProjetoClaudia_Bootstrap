@@ -26,4 +26,10 @@
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada ao passar o mouse */
 }
 
+@media (max-width: 425px) {
+    #habilidades .container .text-font {
+    font-size: 13px;
+    }
+}
+
 
