@@ -29,6 +29,18 @@
 .paragrafo_centro {
     text-align: justify;
 }
+
+.img_order .caixa {
+  text-align: center; 
+}
+
+.img_order img {
+  max-width: 50%; /* Reduz a largura máxima da imagem para 50% */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block;
+  margin: 0 auto; 
+}
+
   
   /* Cor de fundo das sessoes 1 e 3 das fotos empresariais
   #67b0d1 
