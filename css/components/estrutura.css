@@ -54,7 +54,7 @@
   } */
 
   /* CSS */
-/* .parallax-container {
+.parallax-container {
   position: relative;
   height: 100%; 
   overflow: hidden;
@@ -79,29 +79,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
-} */
-
-.parallax-container {
-  position: relative;
-  height: 100%; 
-  overflow: hidden;
-  background-image: url('assets/parallax/atendimento1.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; /* Efeito parallax */
 }
 
-.parallax-content {
-  position: relative;
-  z-index: 2;
-  color: #fff;
-}
-
-/* Ajuste para dispositivos móveis */
-@media only screen and (max-width: 768px) {
-  .parallax-container {
-    background-attachment: scroll; /* Remove o efeito parallax */
-  }
-}
 
