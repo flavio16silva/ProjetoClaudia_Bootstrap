@@ -156,7 +156,7 @@
 @media(min-width: 425px) and (max-width: 576px) {
   /* slider */
   #mainSlider {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   #mainSlider .carousel-caption {
@@ -181,7 +181,7 @@
 @media(max-width: 375px) {
   /* slider */
   #mainSlider {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   #mainSlider .carousel-caption {
