@@ -92,6 +92,16 @@
     }
 
   }
+
+  @media (max-width: 425px) {
+    #servicos_emp  .texto_inicio{
+      font-size: 13px;
+    }
+
+    .paragrafo_centro {
+      font-size: 13px;
+    }
+  }
   
   .bg-full-width:hover {
     background: #03073e;
